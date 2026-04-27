@@ -11,7 +11,7 @@ function main() {
   const usersWithPosts = getUsersWithPosts(database);
 
   console.log(JSON.stringify(usersWithPosts, null, 2));
-  console.log("Total queries:", queryCount);
+  console.log("Total queries:", queryCount); // 1 query
 }
 
 function getUsersWithPosts(database) {

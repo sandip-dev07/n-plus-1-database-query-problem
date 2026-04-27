@@ -18,7 +18,7 @@ function main() {
 
   console.log(JSON.stringify(res, null, 2));
 
-  console.log("Total queries: ", count);
+  console.log("Total queries: ", count); // N+1 queries
 }
 
 function getUsers(database) {
